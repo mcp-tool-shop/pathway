@@ -1,5 +1,5 @@
 {
-  "name": "@mcp-tool-shop/pathway",
+  "name": "@mcptoolshop/pathway",
   "version": "0.2.0",
   "description": "npm wrapper for pathway - Workflow automation tool",
   "bin": {
@@ -25,5 +25,9 @@
   "homepage": "https://github.com/mcp-tool-shop/pathway#readme",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
